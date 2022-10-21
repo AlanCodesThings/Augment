@@ -1,8 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function resizeScreen(){
-	var base_w = 1366;
-	var base_h = 768;
+	var base_w = 480;
+	var base_h = 270;
 	var max_w = display_get_width();
 	var max_h = display_get_height();
 	var aspect = display_get_width() / display_get_height();
