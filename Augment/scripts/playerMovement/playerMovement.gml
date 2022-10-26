@@ -25,11 +25,11 @@ function playerMovement(){
 	// If Player is moving, switch to walk sprite
 	if(inputMagnitude != 0)
 	{
-		sprite_index = sPlayerWalk	
+		sprite_index = walkSprite
 	}
 	else
 	{
-		sprite_index = sPlayerIdle
+		sprite_index = idleSprite
 		
 	}
 	
