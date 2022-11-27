@@ -3,17 +3,45 @@
 function shootWeapons(){
 	
 	counter++; 
-	if(blaster && counter % blasterDelay == 0)
+	if(fireCannon && counter % fireCannonDelay == 0)
 	{
-			shootBlaster();
+		shootFireCannon();
 	}
 	if(flamethrower && counter % flamethrowerDelay == 0)
 	{
-			shootFlameThrower()	
+		shootFlameThrower()	
 		
 	}
 	if(lightningGauntlet && counter % lightningGauntletDelay == 0 )
 	{
-			shootLightningGauntlet()	
+		shootLightningGauntlet()	
+	}
+	if(blackHole && counter % blackHoleDelay == 0)
+	{
+		shootBlackHole();	
+	}
+	if(lightningField && counter % lightningFieldDelay == 0)
+	{
+		shootLightningField();	
+	}
+	if(fireBeam && counter % fireBeamDelay == 0)
+	{
+		shootFireBeam();	
+	}
+	if(artillery && counter % artilleryDelay == 0)
+	{
+		shootArtillery();	
+	}
+	if(plasmaBarrier && counter % plasmaBarrierDelay == 0)
+	{
+		shootPlasmaBarrier();	
+	}
+	if(photonSurge && counter % photonSurgeDelay == 0)
+	{
+		shootPhotonSurge();	
+	}
+	if(earthBreaker && counter % earthBreakerDelay == 0)
+	{
+		shootEarthBreaker();	
 	}
 }

@@ -34,7 +34,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"damage","path":"objects/oWeaponParent/oWeaponParent.yy",},"objectId":{"name":"oWeaponParent","path":"objects/oWeaponParent/oWeaponParent.yy",},"value":"60/room_speed",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"damage","path":"objects/oWeaponParent/oWeaponParent.yy",},"objectId":{"name":"oWeaponParent","path":"objects/oWeaponParent/oWeaponParent.yy",},"value":"70/room_speed",},
   ],
   "parent": {
     "name": "Weapons",

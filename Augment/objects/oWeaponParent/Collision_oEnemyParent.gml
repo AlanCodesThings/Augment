@@ -7,8 +7,8 @@ other.flash = 6;
 drawCounter = 60;
 if(drawCounter > 0)
 { 
-	show_debug_message("sadawe")
-	draw_text(other.x,other.y+10, string(damage));
+	
+	draw_text(other.x,other.y+100, string(damage));
 }
 
 

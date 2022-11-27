@@ -4,5 +4,7 @@ x = oPlayerParent.x;
 y = oPlayerParent.y;
 
 shootWeapons(); 
-
+checkRankFireCannon();
+checkRankFlamethrower();
+checkRankLightningGauntlet();
 

@@ -3,4 +3,3 @@
 playerMovement();
 checkLevel();
 
-show_debug_message(level)

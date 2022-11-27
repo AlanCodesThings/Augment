@@ -3,7 +3,7 @@
 
 
 
-
+duration = 1;
 // Inherit the parent event
 event_inherited();
 nearestEnemy = noone;
@@ -14,7 +14,7 @@ if(instance_exists(oEnemyParent)){
 	nearestEnemy = instance_nearest(x,y,oEnemyParent);
 	if(point_distance(x,y,nearestEnemy.x,nearestEnemy.y) < range)
 	{	
-		image_angle  = point_direction(x,y,nearestEnemy.x,nearestEnemy.y);
+		image_angle  = point_direction(x,y,nearestEnemy.x,nearestEnemy.y) + random_range(-20,20);
 	}
 	
 }

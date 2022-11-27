@@ -15,3 +15,10 @@ if(instance_exists(oEnemyParent))
 		}
 
 }
+
+if(duration ==2)
+{
+	sprite_index = 	sLightningGauntletDouble;
+}
+
+show_debug_message(damage)

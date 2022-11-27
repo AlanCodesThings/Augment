@@ -32,6 +32,8 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"idleSprite","path":"objects/oPlayerParent/oPlayerParent.yy",},"objectId":{"name":"oPlayerParent","path":"objects/oPlayerParent/oPlayerParent.yy",},"value":"sPlayerIdle",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"walkSprite","path":"objects/oPlayerParent/oPlayerParent.yy",},"objectId":{"name":"oPlayerParent","path":"objects/oPlayerParent/oPlayerParent.yy",},"value":"sPlayerWalk",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"maxHP","path":"objects/oPlayerParent/oPlayerParent.yy",},"objectId":{"name":"oPlayerParent","path":"objects/oPlayerParent/oPlayerParent.yy",},"value":"200",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"speedWalk","path":"objects/oPlayerParent/oPlayerParent.yy",},"objectId":{"name":"oPlayerParent","path":"objects/oPlayerParent/oPlayerParent.yy",},"value":"2",},
   ],
   "parent": {
     "name": "Player",
